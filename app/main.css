@@ -1,0 +1,43 @@
+body {
+	background-color:#EFEFEF;
+	//background-color:#500070; 
+}
+
+.mytable {
+	
+	background-color: red;
+}
+
+.mytable tr {
+	cursor: pointer;
+}
+
+.mytable tr:hover {
+	background-color:#eee;
+}
+
+.cellTitle{
+	background-color: #ddd;
+	border-radius: 5px;
+	padding:5px;
+}
+
+.nicebar {
+background-color: rgba(245,245,245,0.3);
+  border-top: 1px solid rgba(255,255,255,0.3);
+  border-bottom: 1px solid rgba(221,221,221,0.3);
+}
+
+h1 {
+	text-shadow: 2px 2px rgba(0,0,0,0.4);
+	
+
+}
+
+.mycal {
+	text-align: center;
+}
+
+.current {
+	background-color:#747;
+}
