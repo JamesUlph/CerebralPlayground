@@ -1,6 +1,6 @@
 
-to install
-npm install
+## To install
+$ npm install
 
-to run
-webpack-dev-server
+## To run
+$ webpack-dev-server
