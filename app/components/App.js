@@ -56,6 +56,7 @@ class App extends React.Component {
 			
 			<AddTodo />
 			<AddTodo />
+			<AddTodo />
 		
 			<button type="button" onClick={this.signals.onClearClick.bind(this)}>Clear</button>
 			

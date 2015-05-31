@@ -26,7 +26,15 @@ var config = {
       loader: 'style!css'
     }]
   },
-  plugins: [new Webpack.HotModuleReplacementPlugin()]
+  plugins: [new Webpack.HotModuleReplacementPlugin()],
+
+  devServer:{
+    contentBase:"./public",
+    hot:true,
+    inline:true
+  }
+
+
 };
 
 module.exports = config;
